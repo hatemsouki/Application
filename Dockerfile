@@ -11,7 +11,7 @@ RUN apt-get install -y apache2
 RUN rm /var/www/html/index.html 
 
 #Instalando PHP e dependencias necessárias para GLPI
-COPY ./pfe var/www/html
+COPY ./PFE var/www/html
 
 
 RUN apt-get install -y php libapache2-mod-php php-curl php-mysqli php-mbstring php-gd php-gd php-simplexml php-intl
