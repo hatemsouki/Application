@@ -46,7 +46,7 @@ pipeline {
 			  stage('test securite') {
             steps {
                 echo 'test injection my sql'
-                
+                 //
                 
                  }
              }
