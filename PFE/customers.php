@@ -2,7 +2,7 @@
 
 	class Customers
 	{
-		private $servername = "mysqli";
+		private $servername = "mysql";
 		private $username 	= "root";
 		private $password 	= "root";
 		private $database 	= "testing";
