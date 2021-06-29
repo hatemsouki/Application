@@ -44,22 +44,6 @@ class CustomersTest extends TestCase
         print 'foo';
     }
 
-    public function testExpectBarActualBaz(): void
-    {
-        $this->expectOutputString('bar');
-
-        print 'bar';
-    }
-    private static $dbh;
-
-    public static function setUpBeforeClass(): void
-    {
-        self::$dbh = new PDO('sqlite::memory:');
-    }
-
-    public static function tearDownAfterClass(): void
-    {
-        self::$dbh = null;
-    }
+  
 
 }
