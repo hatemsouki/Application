@@ -1,6 +1,7 @@
 FROM ubuntu
 ENV DEBIAN_FRONTEND=noninteractive
 
+RUN apt-get clean
 RUN apt-get update 
 
 #Instalando apache
